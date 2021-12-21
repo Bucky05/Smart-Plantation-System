@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/drawable/add_btn_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/drawable/add_btn_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/drawable/arrow_right_background.xml" value="0.1" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/drawable/black_box.xml" value="0.13240740740740742" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/drawable/circlesignup.xml" value="0.10833333333333334" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/drawable/home_oval.xml" value="0.22763157894736843" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/drawable/ic_baseline_arrow_forward_24.xml" value="0.22763157894736843" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/drawable/line.xml" value="0.1" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/drawable/oval_green.xml" value="0.1" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/drawable/shadow_white.xml" value="0.2703125" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/drawable/side_bar_green.xml" value="0.2703125" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/drawable/signincircle.xml" value="0.1259259259259259" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/drawable/text_border.xml" value="0.1" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/drawable/white_box_upper_curve.xml" value="0.12222222222222222" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/drawable/white_rectangle.xml" value="0.22763157894736843" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/font/font.xml" value="0.284375" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/layout/activity_home_window.xml" value="0.37625289128758677" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/layout/activity_log_in.xml" value="0.25" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/layout/activity_profile.xml" value="0.264" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/layout/activity_signuppage.xml" value="0.264" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/layout/single_plant.xml" value="0.2" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/SmartAgricultureSystem2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.xml" value="0.14479166666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".flashwindow">
+
+    <TextView
+        android:id="@+id/logintxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="34dp"
+        android:layout_marginRight="16dp"
+        android:text="Log In"
+        android:textColor="@color/dark_green"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="40000dp"
+
+        android:src="@drawable/side_bar_green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="226dp"
+        android:alpha="0.9"
+        android:src="@drawable/bro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="28dp"
+
+        android:text="Veggies at ease"
+        android:textColor="@color/dark_green"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/signupimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/text_border"
+        android:layout_marginLeft="-70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="-50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/arrowsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-50dp"
+        android:layout_marginTop="-70dp"
+        android:src="@drawable/oval_green"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/imageView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textColor="@color/dark_green"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/signupimg"
+        app:layout_constraintEnd_toEndOf="@+id/signupimg"
+        app:layout_constraintStart_toStartOf="@+id/signupimg"
+        app:layout_constraintTop_toTopOf="@+id/signupimg" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow_right_foreground"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginLeft="-50dp"
+        app:layout_constraintStart_toStartOf="@+id/arrowsignup"
+        app:layout_constraintTop_toTopOf="@id/arrowsignup"
+        app:layout_constraintBottom_toBottomOf="@id/arrowsignup"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
