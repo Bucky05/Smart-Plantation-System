@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginRight="50dp"
+    android:layout_marginLeft="50dp"
+    app:cardElevation="50dp"
+    app:cardCornerRadius="50dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="400dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Plant"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_green"
+        />
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/plant"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/plant_nameE"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:startIconDrawable="@drawable/plant"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <EditText
+            android:id="@+id/plant_nameET"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Enter Plant Name Here" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_gravity="center"
+        android:id="@+id/addPlantBtn"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="ADD"
+        android:textAlignment="center"
+        android:textColor="@color/dark_green"
+
+        app:cornerRadius="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/passwordTil"
+        app:layout_constraintStart_toStartOf="@+id/passwordTil"
+        app:layout_constraintTop_toBottomOf="@+id/passwordTil" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

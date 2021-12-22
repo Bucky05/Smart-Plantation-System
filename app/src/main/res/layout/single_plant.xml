@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="140dp"
-    android:layout_height="140dp"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:foregroundGravity="center"
     android:id="@+id/singleplant"
     >
 
     <ImageView
         android:id="@+id/black_background"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:src="@drawable/black_box"
-
+        android:layout_gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,10 +23,10 @@
         android:layout_width="50dp"
 
         android:layout_height="50dp"
-        android:src="@drawable/plant"
         android:layout_gravity="center"
+
         android:layout_marginBottom="22dp"
-        android:layout_marginLeft="-15dp"
+        android:src="@drawable/plant"
         app:layout_constraintBottom_toBottomOf="@+id/black_background"
         app:layout_constraintEnd_toEndOf="@+id/black_background"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="-10dp"
+
         android:text="Tomato"
         android:textColor="@color/white"
         android:textSize="20dp"

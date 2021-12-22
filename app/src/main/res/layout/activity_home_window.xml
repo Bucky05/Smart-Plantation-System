@@ -59,8 +59,8 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/plant"
         android:layout_marginTop="10dp"
+        android:src="@drawable/plant"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -78,9 +78,11 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
-        android:layout_width="413dp"
-        android:layout_height="686dp"
-        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="-130dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="470dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -92,18 +94,19 @@
         android:id="@+id/add_btn"
         android:layout_width="45sp"
         android:layout_height="45sp"
+        android:layout_marginRight="25dp"
         android:layout_marginBottom="25dp"
         android:backgroundTint="@color/green"
         app:cardCornerRadius="100dp"
-        android:layout_marginRight="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
+
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/add_btn_foreground"
+            android:layout_gravity="center"
             android:background="@color/green"
-            android:layout_gravity="center"/>
+            android:src="@drawable/add_btn_foreground" />
     </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
