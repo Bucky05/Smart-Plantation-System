@@ -28,11 +28,12 @@ class HomeWindow : AppCompatActivity() {
 
         val plants: ArrayList<String> = ArrayList()
 
-        for (i in 1..7)
+        for (i in 1..2)
         {
             plants.add("Tomato")
             plants.add("Chilly")
             plants.add("Cucumber")
+            plants.add("Potato")
         }
 
         recyclerView.layoutManager = GridLayoutManager(this, 3, LinearLayoutManager.VERTICAL,false)

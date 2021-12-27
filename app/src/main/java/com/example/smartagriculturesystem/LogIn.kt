@@ -37,7 +37,7 @@ class LogIn : AppCompatActivity() {
             startActivity(Intent(this,Signuppage::class.java))
         }
         //begin login
-        singUpBtn.setOnClickListener{
+        updateInfo.setOnClickListener{
             // validate before loggin in
                 validateData()
         }
